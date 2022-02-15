@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sync":"git add -A && git ci -m 'sync' && git push",
+    "sync": "git add -A && git ci -m 'sync' && git push",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs"
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/linbudu599/Programming-with-Types#readme",
   "devDependencies": {
-    "vitepress": "^0.21.6"
+    "vitepress": "^0.22.2"
   }
 }
